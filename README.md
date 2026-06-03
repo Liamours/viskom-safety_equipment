@@ -12,9 +12,9 @@ PACT combines YOLO26L PPE detection, YOLOv8x-pose person localization, and a pos
 
 | Name | Role |
 |---|---|
-| M. Rifqi Dzaky Azhad | Coder |
 | Nabila Putri Azhari | Paper Writer & Literature Review |
 | Fathan Arya Maulana | Paper Writer & Documentator |
+| M. Rifqi Dzaky Azhad | Coder |
 
 ---
 

@@ -39,7 +39,7 @@
 }
 
 \begin{document}
-\begin{tikzpicture}[node distance=0.48cm and 1.4cm]
+\begin{tikzpicture}[scale=0.5, every node/.style={transform shape}, node distance=0.48cm and 1.4cm]
 
   \node[io]       (input)   {Input Image\\(640$\times$640)};
   \node[model,    below=of input]   (yolo)    {YOLO26L};
