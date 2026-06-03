@@ -10,18 +10,18 @@ PACT combines YOLO26L PPE detection, YOLOv8x-pose person localization, and a pos
 
 ## Contributors
 
-**Nabila Putri Azhari**
+**Nabila Putri Azhari** · 103012300316
 - Developed compliance report generation and report evaluation pipeline
-- Authored paper sections: *Introduction*, *Literature Review*, *Methods — Report Generation*
+- Authored paper sections: *Introduction*, *Literature Review*, *Methods: Report Generation*
 - Produced all paper figures and visual illustrations
 
-**Fathan Arya Maulana**
+**Fathan Arya Maulana** · 103012300083
 - Developed landmark inference pipeline and ablation study for PPE-to-person assignment
 - Authored paper sections: *Results and Analysis*
 
-**M. Rifqi Dzaky Azhad**
+**M. Rifqi Dzaky Azhad** · 103012330009
 - Developed YOLO26L training and evaluation pipeline for PPE object detection
-- Authored paper sections: *Methods — Object Detection*, *Methods — Landmark Detection*
+- Authored paper sections: *Methods: Object Detection*, *Methods: Landmark Detection*
 
 ---
 
