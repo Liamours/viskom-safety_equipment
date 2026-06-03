@@ -18,6 +18,15 @@ results/phase_2/chv/samples/
 results/phase_2/cppe5/samples/
 results/phase_2/sh17/samples/
 
+# ── Paper drafts / conference materials (not code) ────────────────
+conference/draft/
+conference/figure/
+conference/reference-comparison/
+conference/reference-dataset/
+conference/reference-theory/
+conference/summary-conference-2026.xlsx
+viskom_conferenceICICOS_1505_2218.pdf
+
 # ── Generated renders ──────────────────────────────────────────────
 conference/illustration/tectonic.exe
 conference/illustration/tectonic_tmp.zip

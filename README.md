@@ -126,47 +126,42 @@ $$\text{score}_{i} = \frac{|\text{worn}_i \cap \text{required}|}{|\text{required
 
 ## Results
 
-**PPE Detection**
+**PPE Detection** (mAP at IoU 0.50, original splits)
 
-| Dataset | Split | mAP50 | mAP50-95 | Precision | Recall |
+| Dataset | Test Images | mAP50 | mAP50-95 | Precision | Recall |
 |---|---|---|---|---|---|
-| CHV | Original | 0.923 | 0.548 | 0.926 | 0.859 |
-| CHV | 80/20 | 0.891 | 0.528 | 0.899 | 0.822 |
-| CPPE-5 | Original | 0.765 | 0.527 | 0.812 | 0.698 |
-| SH17 | Original | 0.643 | 0.432 | 0.746 | 0.590 |
+| CHV | 133 | 0.923 | 0.548 | 0.926 | 0.859 |
+| CPPE-5 | 29 | 0.765 | 0.527 | 0.812 | 0.698 |
+| SH17 | 1,620 | 0.652 | 0.432 | 0.746 | 0.590 |
 
-**Person Detection** (YOLOv8x-pose, pretrained only)
+**Person Detection** (YOLOv8x-pose, pretrained only, IoU 0.50)
 
-| Dataset | Precision | Recall | F1 |
+| Dataset | Precision | Recall | F1 | TP | FP | FN |
+|---|---|---|---|---|---|---|
+| CHV | 0.907 | 0.800 | 0.850 | 360 | 37 | 90 |
+| SH17 | 0.944 | 0.836 | 0.887 | 2286 | 136 | 448 |
+| CPPE-5 | 0.396 | 0.618 | 0.483 | 21 | 32 | 13 |
+
+**Assignment Accuracy** (multi-person frames, ≥2 GT persons)
+
+| Dataset | Correct | Total | Accuracy |
 |---|---|---|---|
-| CHV | 0.907 | 0.800 | 0.850 |
-| SH17 | 0.944 | 0.836 | 0.887 |
-| CPPE-5 | — | — | — (no GT person boxes) |
+| CHV | 408 | 435 | 0.938 |
+| SH17 | 521 | 584 | 0.892 |
+| CPPE-5 | — | — | excluded (no GT person boxes) |
 
-**Assignment Accuracy**
+**Runtime** (RTX 4050 Laptop, 6 GB VRAM)
 
-| Dataset | Split | Correct / Total | Accuracy |
-|---|---|---|---|
-| CHV | Original | 408 / 435 | 0.938 |
-| CHV | 80/20 | 630 / 659 | 0.956 |
-| SH17 | Original | 521 / 584 | 0.892 |
-
-**Runtime** (RTX 4050, 1,782 images avg)
-
-| Stage | Latency |
-|---|---|
-| YOLO26L (PPE) | 29.44 ms |
-| YOLOv8x-pose | 60.73 ms |
-| Anchor + compliance | 0.42 ms |
-| **End-to-end** | **90.72 ms / 11.02 FPS** |
+| Dataset | PPE det. | Pose det. | Anchor+C | Total / FPS |
+|---|---|---|---|---|
+| CPPE-5 | 29.80 ms | 43.59 ms | 0.41 ms | 73.93 ms / 13.53 FPS |
+| CHV | 33.28 ms | 46.64 ms | 0.79 ms | 80.86 ms / 12.37 FPS |
+| SH17 | 29.12 ms | 62.19 ms | 0.39 ms | 91.83 ms / 10.89 FPS |
+| **Overall** | **29.44 ms** | **60.73 ms** | **0.42 ms** | **90.72 ms / 11.02 FPS** |
 
 ---
 
 ## Figures
-
-**Pipeline**
-
-![Pipeline](conference/draft/figures/pipeline.png)
 
 **PPE Detection Flow**
 
@@ -175,18 +170,6 @@ $$\text{score}_{i} = \frac{|\text{worn}_i \cap \text{required}|}{|\text{required
 **Landmark Detection Flow**
 
 ![Landmark flow](conference/illustration/flow_landmark_detection.png)
-
-**Qualitative Results**
-
-| Dataset | Raw | Pose | Detection | Report |
-|---|---|---|---|---|
-| CHV | ![](conference/draft/figures/raw1.png) | ![](conference/draft/figures/landmark1.png) | ![](conference/draft/figures/pact1.png) | ![](conference/draft/figures/report1.png) |
-| CPPE-5 | ![](conference/draft/figures/raw2.png) | ![](conference/draft/figures/landmark2.png) | ![](conference/draft/figures/pact2.png) | ![](conference/draft/figures/report2.png) |
-| SH17 | ![](conference/draft/figures/raw3.png) | ![](conference/draft/figures/landmark3.png) | ![](conference/draft/figures/pact3.png) | ![](conference/draft/figures/report3.png) |
-
-**Failure Cases** (missed vests: occlusion/side-view; false positives CPPE-5: background color similarity)
-
-![Failure cases](conference/draft/figures/wrongcase.png)
 
 ---
 
