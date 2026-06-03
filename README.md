@@ -78,16 +78,14 @@ Hyperparameters: max epochs 150, early stopping patience 20, batch size 8, optim
 
 Augmentations: mosaic 1.0 (disabled last 10 epochs), horizontal flip p=0.5, HSV jitter (h=0.015, s=0.7, v=0.4), scale=0.5, translate=0.1, RandAugment, random erasing=0.4.
 
-| Dataset | Split | Epochs | Best | Duration |
-|---|---|---|---|---|
-| CHV | Original | 73 | 53 | ~37 min |
-| CHV | 80/20 | 71 | 64 | ~3 hr |
-| CPPE-5 | Original | 131 | 56 | ~4.5 hr |
-| CPPE-5 | 80/20 | 62 | 52 | ~3.5 hr |
-| SH17 | Original | 115 | 95 | ~14.5 hr |
-| SH17 | 80/20 | 144 | 124 | ~18 hr |
-
-Total GPU time: ~44 hours.
+| Dataset | Split | Epochs | Best Epoch |
+|---|---|---|---|
+| CHV | Original | 73 | 53 |
+| CHV | 80/20 | 71 | 64 |
+| CPPE-5 | Original | 131 | 56 |
+| CPPE-5 | 80/20 | 62 | 52 |
+| SH17 | Original | 115 | 95 |
+| SH17 | 80/20 | 144 | 124 |
 
 ---
 
