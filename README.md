@@ -163,6 +163,14 @@ $$\text{score}_{i} = \frac{|\text{worn}_i \cap \text{required}|}{|\text{required
 
 ## Figures
 
+**Pipeline Overview**
+
+![Pipeline](results/figures/pipeline.png)
+
+**Comparison with Prior Work (Table II)**
+
+![Table II](results/figures/table_ii.png)
+
 **Training mAP50**
 
 ![mAP50](results/figures/training_map50_combined.png)
