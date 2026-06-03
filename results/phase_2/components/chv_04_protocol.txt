@@ -1,0 +1,11 @@
+Context: Construction / Building Site
+Standard: OSHA 1910.135 / EN 397 / ISO 20471
+
+Mandatory PPE:
+  - Safety Helmet: Head protection — mandatory on all active sites
+  - High-Visibility Vest: Worker visibility to vehicle operators
+
+Recommended:
+  - Safety Shoes / Steel-Toe Boots
+  - Protective Gloves
+  - Safety Glasses

@@ -1,0 +1,61 @@
+# ── AI tool internals ─────────────────────────────────────────────
+.claude/
+context/
+summary.md
+_paper_extract.txt
+_pdf_pages/
+
+# ── Large binary / data artifacts ─────────────────────────────────
+runs/
+models/
+dataset/
+landmarks/
+
+# ── Per-image result dumps (thousands of files) ───────────────────
+results/reports/
+results/phase_2/*/reports/*.html
+results/phase_2/chv/samples/
+results/phase_2/cppe5/samples/
+results/phase_2/sh17/samples/
+
+# ── Generated renders ──────────────────────────────────────────────
+conference/illustration/tectonic.exe
+conference/illustration/tectonic_tmp.zip
+conference/illustration/*.pdf
+
+# ── Archives ──────────────────────────────────────────────────────
+*.rar
+*.zip
+
+# ── Python ────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.uv/
+
+# ── Ultralytics / YOLO cache ──────────────────────────────────────
+*.cache
+datasets/
+
+# ── OS / editor ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# ── Secrets ───────────────────────────────────────────────────────
+.env
+*.key

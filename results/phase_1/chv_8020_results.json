@@ -1,0 +1,34 @@
+{
+  "map50": 0.8906,
+  "map5095": 0.5284,
+  "precision": 0.8988,
+  "recall": 0.822,
+  "per_class": {
+    "class_0": {
+      "ap50": 0.9036,
+      "ap5095": 0.5546
+    },
+    "class_1": {
+      "ap50": 0.8582,
+      "ap5095": 0.5133
+    },
+    "class_2": {
+      "ap50": 0.8807,
+      "ap5095": 0.4844
+    },
+    "class_3": {
+      "ap50": 0.9023,
+      "ap5095": 0.5314
+    },
+    "class_4": {
+      "ap50": 0.8855,
+      "ap5095": 0.5325
+    },
+    "class_5": {
+      "ap50": 0.9133,
+      "ap5095": 0.5543
+    }
+  },
+  "split": "test",
+  "weights": "C:\\Users\\lulay\\Desktop\\viskom-safety_equipment\\runs\\detect\\phase1_chv_8020\\weights\\best.pt"
+}

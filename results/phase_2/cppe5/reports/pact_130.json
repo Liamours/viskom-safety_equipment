@@ -1,0 +1,57 @@
+{
+  "image": "dataset\\CPPE-5\\130.png",
+  "num_persons": 3,
+  "num_compliant": 0,
+  "persons": [
+    {
+      "person_id": 0,
+      "compliant": false,
+      "worn": [
+        "coverall",
+        "goggles",
+        "mask"
+      ],
+      "missing": [
+        "gloves"
+      ],
+      "person_bbox": [
+        146,
+        79,
+        456,
+        494
+      ]
+    },
+    {
+      "person_id": 1,
+      "compliant": false,
+      "worn": [],
+      "missing": [
+        "coverall",
+        "mask",
+        "gloves"
+      ],
+      "person_bbox": [
+        525,
+        291,
+        749,
+        496
+      ]
+    },
+    {
+      "person_id": 2,
+      "compliant": false,
+      "worn": [],
+      "missing": [
+        "coverall",
+        "mask",
+        "gloves"
+      ],
+      "person_bbox": [
+        473,
+        118,
+        512,
+        233
+      ]
+    }
+  ]
+}

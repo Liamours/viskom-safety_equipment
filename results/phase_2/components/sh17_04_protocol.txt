@@ -1,0 +1,12 @@
+Context: Industrial / Construction Workplace
+Standard: OSHA 29 CFR 1926 / ISO 45001
+
+Mandatory PPE:
+  - Safety Helmet: Head protection against falling objects
+  - Safety Vest (Hi-Vis): High-visibility for traffic/machinery zones
+  - Protective Gloves: Hand protection from sharp/hot surfaces
+
+Recommended:
+  - Safety Shoes / Boots
+  - Eye Protection
+  - Hearing Protection (Earmuffs)

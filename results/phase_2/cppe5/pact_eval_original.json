@@ -1,0 +1,65 @@
+{
+  "dataset": "cppe5",
+  "split": "original",
+  "n_images": 29,
+  "level_1a_person_detection": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 56,
+    "fn": 0
+  },
+  "level_1b_ppe_detection": {
+    "per_class": {
+      "coverall": {
+        "precision": 0.7895,
+        "recall": 0.6667,
+        "f1": 0.7229,
+        "tp": 30,
+        "fp": 8,
+        "fn": 15
+      },
+      "face_shield": {
+        "precision": 0.7,
+        "recall": 0.8235,
+        "f1": 0.7568,
+        "tp": 14,
+        "fp": 6,
+        "fn": 3
+      },
+      "gloves": {
+        "precision": 0.7353,
+        "recall": 0.4098,
+        "f1": 0.5263,
+        "tp": 25,
+        "fp": 9,
+        "fn": 36
+      },
+      "goggles": {
+        "precision": 0.7826,
+        "recall": 0.5625,
+        "f1": 0.6545,
+        "tp": 18,
+        "fp": 5,
+        "fn": 14
+      },
+      "mask": {
+        "precision": 0.7879,
+        "recall": 0.5,
+        "f1": 0.6118,
+        "tp": 26,
+        "fp": 7,
+        "fn": 26
+      }
+    },
+    "macro_precision": 0.7591,
+    "macro_recall": 0.5925,
+    "macro_f1": 0.6545
+  },
+  "level_2_assignment": {
+    "total_gt_pairs": 0,
+    "correct": 0,
+    "accuracy": "N/A"
+  }
+}

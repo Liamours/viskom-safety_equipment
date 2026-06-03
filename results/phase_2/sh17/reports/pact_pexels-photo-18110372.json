@@ -1,0 +1,40 @@
+{
+  "image": "dataset\\SH17\\pexels-photo-18110372.jpeg",
+  "num_persons": 2,
+  "num_compliant": 0,
+  "persons": [
+    {
+      "person_id": 0,
+      "compliant": false,
+      "worn": [
+        "helmet"
+      ],
+      "missing": [
+        "safety-vest",
+        "gloves"
+      ],
+      "person_bbox": [
+        628,
+        745,
+        1218,
+        1648
+      ]
+    },
+    {
+      "person_id": 1,
+      "compliant": false,
+      "worn": [],
+      "missing": [
+        "helmet",
+        "safety-vest",
+        "gloves"
+      ],
+      "person_bbox": [
+        839,
+        1294,
+        1619,
+        1850
+      ]
+    }
+  ]
+}

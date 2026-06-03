@@ -1,0 +1,52 @@
+{
+  "image": "dataset\\CHV\\ppe_0021.jpg",
+  "num_persons": 3,
+  "num_compliant": 0,
+  "persons": [
+    {
+      "person_id": 0,
+      "compliant": false,
+      "worn": [],
+      "missing": [
+        "helmet",
+        "vest"
+      ],
+      "person_bbox": [
+        83,
+        31,
+        211,
+        183
+      ]
+    },
+    {
+      "person_id": 1,
+      "compliant": false,
+      "worn": [],
+      "missing": [
+        "helmet",
+        "vest"
+      ],
+      "person_bbox": [
+        208,
+        31,
+        287,
+        183
+      ]
+    },
+    {
+      "person_id": 2,
+      "compliant": false,
+      "worn": [],
+      "missing": [
+        "helmet",
+        "vest"
+      ],
+      "person_bbox": [
+        38,
+        31,
+        109,
+        182
+      ]
+    }
+  ]
+}

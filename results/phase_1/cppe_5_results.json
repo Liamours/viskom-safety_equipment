@@ -1,0 +1,30 @@
+{
+  "map50": 0.7264,
+  "map5095": 0.4521,
+  "precision": 0.7927,
+  "recall": 0.7012,
+  "per_class": {
+    "Coverall": {
+      "ap50": 0.8536,
+      "ap5095": 0.5946
+    },
+    "Face_Shield": {
+      "ap50": 0.7042,
+      "ap5095": 0.4046
+    },
+    "Gloves": {
+      "ap50": 0.6093,
+      "ap5095": 0.3825
+    },
+    "Goggles": {
+      "ap50": 0.7376,
+      "ap5095": 0.4424
+    },
+    "Mask": {
+      "ap50": 0.7272,
+      "ap5095": 0.4366
+    }
+  },
+  "split": "test",
+  "weights": "C:\\Users\\lulay\\Desktop\\viskom-safety_equipment\\runs\\detect\\phase1_cppe_5_8020\\weights\\best.pt"
+}

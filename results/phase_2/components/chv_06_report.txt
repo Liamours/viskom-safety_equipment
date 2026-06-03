@@ -1,0 +1,34 @@
+Context: Construction Site
+Rule: chv
+Image: C:\Users\lulay\Desktop\viskom-safety_equipment\dataset\CHV\ppe_0387.jpg
+Timestamp: 2026-04-28 18:02:07
+
+Workers detected: 4
+Compliant: 0
+Violations: 4
+Compliance rate: 50%
+
+Overall assessment:
+0/4 fully compliant, overall PPE score 50% (Construction Site). 4 worker(s) need corrective action.
+
+Workers:
+  Worker 1: NON-COMPLIANT (50%)
+    Worn: vest
+    Missing: helmet
+    Worker 1 (50% compliant) — missing: Safety Helmet. Worn: High-Visibility Vest.
+  Worker 2: NON-COMPLIANT (50%)
+    Worn: helmet
+    Missing: vest
+    Worker 2 (50% compliant) — missing: High-Visibility Vest. Worn: Safety Helmet.
+  Worker 3: NON-COMPLIANT (50%)
+    Worn: vest
+    Missing: helmet
+    Worker 3 (50% compliant) — missing: Safety Helmet. Worn: High-Visibility Vest.
+  Worker 4: NON-COMPLIANT (50%)
+    Worn: helmet
+    Missing: vest
+    Worker 4 (50% compliant) — missing: High-Visibility Vest. Worn: Safety Helmet.
+
+Action items:
+  [URGENT] Provide Safety Helmet — Worker 1, Worker 3
+  [URGENT] Provide High-Visibility Vest — Worker 2, Worker 4

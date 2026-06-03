@@ -1,0 +1,34 @@
+{
+  "n_images": 29,
+  "mean_total_ms": 140.87,
+  "mean_fps": 7.1,
+  "mean_ppe_ms": 29.1,
+  "mean_pose_ms": 45.84,
+  "mean_report_ms": 0.14,
+  "scaling_by_n_persons": {
+    "1": {
+      "count": 18,
+      "mean_total_ms": 138.52
+    },
+    "2": {
+      "count": 6,
+      "mean_total_ms": 152.12
+    },
+    "3": {
+      "count": 2,
+      "mean_total_ms": 131.81
+    },
+    "4": {
+      "count": 1,
+      "mean_total_ms": 132.72
+    },
+    "6": {
+      "count": 1,
+      "mean_total_ms": 115.65
+    },
+    "7": {
+      "count": 1,
+      "mean_total_ms": 167.23
+    }
+  }
+}

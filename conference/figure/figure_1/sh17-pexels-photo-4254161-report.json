@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "timestamp": "2026-05-05 19:24:19",
+    "rule": "sh17",
+    "context": "Industrial Workplace",
+    "dataset": "sh17",
+    "image_path": "C:\\Users\\lulay\\Desktop\\viskom-safety_equipment\\dataset\\SH17\\raw_640\\images\\pexels-photo-4254161.jpeg",
+    "inspector": "Automated Vision System"
+  },
+  "summary": {
+    "num_persons": 2,
+    "num_compliant": 0,
+    "num_violations": 2,
+    "compliance_rate": 0.3333
+  },
+  "persons": [
+    {
+      "person_id": 0,
+      "compliant": false,
+      "compliance_score": 0.3333,
+      "worn": [
+        "safety-vest"
+      ],
+      "missing": [
+        "helmet",
+        "gloves"
+      ],
+      "person_bbox": [
+        189,
+        163,
+        434,
+        422
+      ],
+      "narrative": "Worker 1 (33% compliant) \u2014 missing: Safety Helmet, Protective Gloves. Worn: Safety Vest."
+    },
+    {
+      "person_id": 1,
+      "compliant": false,
+      "compliance_score": 0.3333,
+      "worn": [
+        "helmet"
+      ],
+      "missing": [
+        "safety-vest",
+        "gloves"
+      ],
+      "person_bbox": [
+        490,
+        79,
+        636,
+        422
+      ],
+      "narrative": "Worker 2 (33% compliant) \u2014 missing: Safety Vest, Protective Gloves. Worn: Safety Helmet."
+    }
+  ],
+  "assessment": "0/2 fully compliant, overall PPE score 33% (Industrial Workplace). 2 worker(s) need corrective action.",
+  "action_items": [
+    "[URGENT] Provide Safety Helmet \u2014 Worker 1",
+    "[URGENT] Provide Safety Vest \u2014 Worker 2",
+    "[ADVISORY] Provide Protective Gloves \u2014 Worker 1, Worker 2"
+  ]
+}

@@ -1,0 +1,26 @@
+Context: Medical / Healthcare
+Rule: cppe5
+Image: C:\Users\lulay\Desktop\viskom-safety_equipment\dataset\CPPE-5\130.png
+Timestamp: 2026-04-28 18:02:05
+
+Workers detected: 2
+Compliant: 0
+Violations: 2
+Compliance rate: 33%
+
+Overall assessment:
+0/2 fully compliant, overall PPE score 33% (Medical / Healthcare). 2 worker(s) need corrective action.
+
+Workers:
+  Worker 1: NON-COMPLIANT (67%)
+    Worn: coverall, goggles, mask
+    Missing: gloves
+    Worker 1 (67% compliant) — missing: Protective Gloves. Worn: Coverall Suit, Safety Goggles, Face Mask.
+  Worker 2: NON-COMPLIANT (0%)
+    Missing: coverall, mask, gloves
+    Worker 2 (0% compliant) — missing: Face Mask, Protective Gloves, Coverall Suit.
+
+Action items:
+  [ADVISORY] Provide Protective Gloves — Worker 1, Worker 2
+  [ADVISORY] Provide Face Mask — Worker 2
+  [ADVISORY] Provide Coverall Suit — Worker 2

@@ -1,0 +1,35 @@
+{
+  "chv": {
+    "gt_persons": 450,
+    "pred_persons": 397,
+    "tp": 360,
+    "fp": 37,
+    "fn": 90,
+    "precision": 0.9068,
+    "recall": 0.8,
+    "f1": 0.8501,
+    "gt_source": "yolo"
+  },
+  "sh17": {
+    "gt_persons": 2734,
+    "pred_persons": 2422,
+    "tp": 2286,
+    "fp": 136,
+    "fn": 448,
+    "precision": 0.9438,
+    "recall": 0.8361,
+    "f1": 0.8867,
+    "gt_source": "yolo"
+  },
+  "cppe5": {
+    "gt_persons": 34,
+    "pred_persons": 53,
+    "tp": 21,
+    "fp": 32,
+    "fn": 13,
+    "precision": 0.3962,
+    "recall": 0.6176,
+    "f1": 0.4828,
+    "gt_source": "coco_cluster"
+  }
+}

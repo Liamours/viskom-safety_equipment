@@ -1,0 +1,12 @@
+Context: Healthcare / Clinical Environment
+Standard: WHO PPE Guidelines / CDC Infection Control
+
+Mandatory PPE:
+  - Coverall Suit: Full-body barrier against biohazards
+  - Face Mask: Respiratory droplet protection (N95/surgical)
+  - Protective Gloves: Barrier against pathogen contact
+
+Recommended:
+  - Face Shield / Goggles
+  - Boot Covers
+  - Hair Cover / Cap

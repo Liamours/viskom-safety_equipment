@@ -1,0 +1,44 @@
+{
+  "image": "C:\\Users\\lulay\\Desktop\\viskom-safety_equipment\\dataset\\CPPE-5\\130.png",
+  "num_persons": 2,
+  "num_compliant": 0,
+  "compliance_rate": 0.3333,
+  "persons": [
+    {
+      "person_id": 0,
+      "compliant": false,
+      "compliance_score": 0.6667,
+      "worn": [
+        "coverall",
+        "goggles",
+        "mask"
+      ],
+      "missing": [
+        "gloves"
+      ],
+      "person_bbox": [
+        146,
+        79,
+        456,
+        494
+      ]
+    },
+    {
+      "person_id": 1,
+      "compliant": false,
+      "compliance_score": 0.0,
+      "worn": [],
+      "missing": [
+        "coverall",
+        "mask",
+        "gloves"
+      ],
+      "person_bbox": [
+        525,
+        291,
+        749,
+        496
+      ]
+    }
+  ]
+}

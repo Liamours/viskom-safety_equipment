@@ -1,0 +1,44 @@
+{
+  "image": "C:\\Users\\lulay\\Desktop\\viskom-safety_equipment\\dataset\\SH17\\pexels-photo-18110372.jpeg",
+  "num_persons": 2,
+  "num_compliant": 0,
+  "compliance_rate": 0.3333,
+  "persons": [
+    {
+      "person_id": 0,
+      "compliant": false,
+      "compliance_score": 0.3333,
+      "worn": [
+        "helmet"
+      ],
+      "missing": [
+        "safety-vest",
+        "gloves"
+      ],
+      "person_bbox": [
+        628,
+        745,
+        1218,
+        1648
+      ]
+    },
+    {
+      "person_id": 1,
+      "compliant": false,
+      "compliance_score": 0.3333,
+      "worn": [
+        "helmet"
+      ],
+      "missing": [
+        "safety-vest",
+        "gloves"
+      ],
+      "person_bbox": [
+        839,
+        1294,
+        1619,
+        1850
+      ]
+    }
+  ]
+}

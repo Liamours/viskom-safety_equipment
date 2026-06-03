@@ -1,0 +1,76 @@
+{
+  "image": "C:\\Users\\lulay\\Desktop\\viskom-safety_equipment\\dataset\\CHV\\ppe_0387.jpg",
+  "num_persons": 4,
+  "num_compliant": 0,
+  "compliance_rate": 0.5,
+  "persons": [
+    {
+      "person_id": 0,
+      "compliant": false,
+      "compliance_score": 0.5,
+      "worn": [
+        "vest"
+      ],
+      "missing": [
+        "helmet"
+      ],
+      "person_bbox": [
+        44,
+        83,
+        329,
+        696
+      ]
+    },
+    {
+      "person_id": 1,
+      "compliant": false,
+      "compliance_score": 0.5,
+      "worn": [
+        "helmet"
+      ],
+      "missing": [
+        "vest"
+      ],
+      "person_bbox": [
+        707,
+        30,
+        936,
+        728
+      ]
+    },
+    {
+      "person_id": 2,
+      "compliant": false,
+      "compliance_score": 0.5,
+      "worn": [
+        "vest"
+      ],
+      "missing": [
+        "helmet"
+      ],
+      "person_bbox": [
+        413,
+        46,
+        696,
+        732
+      ]
+    },
+    {
+      "person_id": 3,
+      "compliant": false,
+      "compliance_score": 0.5,
+      "worn": [
+        "helmet"
+      ],
+      "missing": [
+        "vest"
+      ],
+      "person_bbox": [
+        536,
+        93,
+        678,
+        684
+      ]
+    }
+  ]
+}

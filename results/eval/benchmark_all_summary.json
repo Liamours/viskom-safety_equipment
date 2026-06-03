@@ -1,0 +1,42 @@
+[
+  {
+    "label": "cppe5",
+    "n_images": 29,
+    "mean_fps": 13.53,
+    "mean_total_ms": 73.93,
+    "mean_ppe_ms": 29.8,
+    "mean_pose_ms": 43.59,
+    "mean_anchor_ms": 0.41,
+    "mean_report_ms": 0.13
+  },
+  {
+    "label": "chv",
+    "n_images": 133,
+    "mean_fps": 12.37,
+    "mean_total_ms": 80.86,
+    "mean_ppe_ms": 33.28,
+    "mean_pose_ms": 46.64,
+    "mean_anchor_ms": 0.79,
+    "mean_report_ms": 0.15
+  },
+  {
+    "label": "sh17",
+    "n_images": 1620,
+    "mean_fps": 10.89,
+    "mean_total_ms": 91.83,
+    "mean_ppe_ms": 29.12,
+    "mean_pose_ms": 62.19,
+    "mean_anchor_ms": 0.39,
+    "mean_report_ms": 0.13
+  },
+  {
+    "label": "overall",
+    "n_images": 1782,
+    "mean_fps": 11.02,
+    "mean_total_ms": 90.72,
+    "mean_ppe_ms": 29.44,
+    "mean_pose_ms": 60.73,
+    "mean_anchor_ms": 0.42,
+    "mean_report_ms": 0.13
+  }
+]

@@ -1,0 +1,26 @@
+Context: Industrial Workplace
+Rule: sh17
+Image: C:\Users\lulay\Desktop\viskom-safety_equipment\dataset\SH17\pexels-photo-18110372.jpeg
+Timestamp: 2026-04-28 18:02:03
+
+Workers detected: 2
+Compliant: 0
+Violations: 2
+Compliance rate: 33%
+
+Overall assessment:
+0/2 fully compliant, overall PPE score 33% (Industrial Workplace). 2 worker(s) need corrective action.
+
+Workers:
+  Worker 1: NON-COMPLIANT (33%)
+    Worn: helmet
+    Missing: safety-vest, gloves
+    Worker 1 (33% compliant) — missing: Safety Vest, Protective Gloves. Worn: Safety Helmet.
+  Worker 2: NON-COMPLIANT (33%)
+    Worn: helmet
+    Missing: safety-vest, gloves
+    Worker 2 (33% compliant) — missing: Safety Vest, Protective Gloves. Worn: Safety Helmet.
+
+Action items:
+  [URGENT] Provide Safety Vest — Worker 1, Worker 2
+  [ADVISORY] Provide Protective Gloves — Worker 1, Worker 2
