@@ -267,8 +267,8 @@ See [`requirements.txt`](requirements.txt) for the full list. For diagram render
 
 ## References
 
-- Wang et al., *Sensors* 2021 — CHV dataset
-- Dagli & Shaikh, *SN Computer Science* 2023 — CPPE-5 dataset
-- Ahmad & Rahimi, *JSSR* 2024 — SH17 dataset
-- Sapkota et al., arXiv:2509.25164, 2026 — YOLO26
-- Vukicevic et al., *AI Review* 2024 — PPE compliance survey
+- Wang et al., "Fast Personal Protective Equipment Detection for Real Construction Sites Using Deep Learning Approaches," *Sensors*, 2021 — CHV dataset. [https://doi.org/10.3390/s21103478](https://doi.org/10.3390/s21103478)
+- Dagli & Shaikh, "CPPE-5: Medical Personal Protective Equipment Dataset," *SN Computer Science*, 2023 — CPPE-5 dataset. [https://doi.org/10.1007/s42979-023-01748-7](https://doi.org/10.1007/s42979-023-01748-7)
+- Ahmad & Rahimi, "SH17: A Dataset for Human Safety and Personal Protective Equipment Detection in Manufacturing Industry," *Journal of Safety Science and Resilience*, 2024 — SH17 dataset. [https://doi.org/10.1016/j.jnlssr.2024.09.002](https://doi.org/10.1016/j.jnlssr.2024.09.002)
+- Sapkota et al., "YOLO26: Key Architectural Enhancements and Performance Benchmarking for Real-Time Object Detection," arXiv, 2026 — YOLO26. [https://arxiv.org/abs/2509.25164](https://arxiv.org/abs/2509.25164)
+- Vukicevic et al., "A Systematic Review of Computer Vision-Based Personal Protective Equipment Compliance in Industry Practice," *Artificial Intelligence Review*, 2024 — PPE compliance survey. [https://doi.org/10.1007/s10462-024-10978-x](https://doi.org/10.1007/s10462-024-10978-x)
