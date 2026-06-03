@@ -171,6 +171,14 @@ $$\text{score}_{i} = \frac{|\text{worn}_i \cap \text{required}|}{|\text{required
 
 ![Landmark flow](conference/illustration/flow_landmark_detection.png)
 
+**Training mAP50**
+
+![mAP50](results/figures/training_map50_combined.png)
+
+**Training Validation Loss**
+
+![Val Loss](results/figures/training_val_loss_combined.png)
+
 ---
 
 ## Project Structure
