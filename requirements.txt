@@ -1,0 +1,24 @@
+# Core detection and pose estimation
+ultralytics>=8.4.0
+torch>=2.0.0
+torchvision
+
+# Landmark extraction
+mediapipe
+
+# Image processing
+opencv-python
+Pillow
+
+# Utilities
+numpy
+tqdm
+
+# Report rendering
+jinja2
+
+# Diagram rendering (used by conference/illustration/render.py)
+# Run: uv run conference/illustration/render.py
+# tectonic is auto-downloaded on first run
+requests
+pymupdf

@@ -226,7 +226,15 @@ python code/experiment/ablation_assignment.py
 cd conference/illustration && uv run render.py
 ```
 
-**Dependencies**: `ultralytics>=8.4.0`, `torch>=2.0.0`, `mediapipe`, `opencv-python`, `Pillow`, `numpy`, `tqdm`, `jinja2`
+## Dependencies
+
+Install all dependencies via:
+
+```bash
+pip install -r requirements.txt
+```
+
+See [`requirements.txt`](requirements.txt) for the full list. For diagram rendering, `tectonic` is auto-downloaded on first run by `conference/illustration/render.py` — no manual install needed.
 
 ---
 
