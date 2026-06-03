@@ -163,14 +163,6 @@ $$\text{score}_{i} = \frac{|\text{worn}_i \cap \text{required}|}{|\text{required
 
 ## Figures
 
-**PPE Detection Flow**
-
-![PPE flow](conference/illustration/flow_ppe_detection.png)
-
-**Landmark Detection Flow**
-
-![Landmark flow](conference/illustration/flow_landmark_detection.png)
-
 **Training mAP50**
 
 ![mAP50](results/figures/training_map50_combined.png)
