@@ -148,7 +148,6 @@ $$\text{score}_{i} = \frac{|\text{worn}_i \cap \text{required}|}{|\text{required
 |---|---|---|---|
 | CHV | 408 | 435 | 0.938 |
 | SH17 | 521 | 584 | 0.892 |
-| CPPE-5 | — | — | excluded (no GT person boxes) |
 
 **Runtime** (RTX 4050 Laptop, 6 GB VRAM)
 
