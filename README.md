@@ -74,14 +74,9 @@ PACT combines YOLO26L PPE detection, YOLOv8x-pose person localization, and a pos
 
 GPU: NVIDIA RTX 4050 Laptop (6 GB) · CUDA 11.8 · PyTorch 2.7.1 · Ultralytics 8.4.31
 
-| Parameter | Value | Augmentation | Value |
-|---|---|---|---|
-| Max epochs | 150 | Mosaic | 1.0 |
-| Early stopping | patience 20 | Horiz. flip | p=0.5 |
-| Batch size | 8 | HSV jitter | h=0.015, s=0.7, v=0.4 |
-| Optimizer | AdamW | Auto augment | RandAugment |
-| lr0 / lrf | 0.001 / 0.01 | Random erasing | 0.4 |
-| Weight decay | 0.0005 | | |
+Hyperparameters: max epochs 150, early stopping patience 20, batch size 8, optimizer AdamW, lr0=0.001, lrf=0.01, weight decay=0.0005, image size 640×640, AMP enabled.
+
+Augmentations: mosaic 1.0 (disabled last 10 epochs), horizontal flip p=0.5, HSV jitter (h=0.015, s=0.7, v=0.4), scale=0.5, translate=0.1, RandAugment, random erasing=0.4.
 
 | Dataset | Split | Epochs | Best | Duration |
 |---|---|---|---|---|
