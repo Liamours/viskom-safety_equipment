@@ -207,23 +207,50 @@ viskom-safety_equipment/
 
 ## Usage
 
+**Training YOLO26L — CHV Dataset**
 ```bash
-# Phase 1 — train
 python code/experiment/phase_1/train_chv.py
+```
+
+**Training YOLO26L — CPPE-5 Dataset**
+```bash
 python code/experiment/phase_1/train_cppe5.py
+```
+
+**Training YOLO26L — SH17 Dataset**
+```bash
 python code/experiment/phase_1/train_sh17.py
+```
+
+**Evaluate All Trained Detection Models**
+```bash
 python code/experiment/phase_1/evaluate_all.py
+```
 
-# Phase 2 — PACT compliance
+**Run PACT Compliance Evaluation**
+```bash
 python code/experiment/phase_2/evaluate_pact.py
+```
+
+**Run PACT on Sample Images (with visual output)**
+```bash
 python code/experiment/phase_2/sample_pact_eval.py
+```
+
+**Generate HTML Compliance Reports**
+```bash
 python code/experiment/phase_2/generate_report.py
+```
 
-# Ablation
+**Ablation — PPE-to-Person Assignment Parameter Sweep**
+```bash
 python code/experiment/ablation_assignment.py
+```
 
-# Render flow diagrams
-cd conference/illustration && uv run render.py
+**Render Flow Diagrams (TikZ → PNG)**
+```bash
+cd conference/illustration
+uv run render.py
 ```
 
 ## Dependencies
